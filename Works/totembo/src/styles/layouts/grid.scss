@@ -1,0 +1,73 @@
+$sizes: (
+    1140:   1200,
+    960:    992,
+    720:    768,
+    540:    576,
+    0:      0);
+    
+@mixin grid ($gridSizes) {
+    @each $containerSize, $oneSize in $gridSizes {
+        $size:0;
+        @if $oneSize == 1200 {
+            $size:xl;
+        }
+        @else if $oneSize == 992 {
+            $size:lg;
+        }
+        @else if $oneSize == 768 {
+            $size:md;
+        }
+        @else if $oneSize == 576 {
+            $size:sm;
+        }
+        
+        @for $i from 1 through 12 {
+            @if $oneSize>0 {
+                @media(min-width: #{$oneSize}px){
+                    .col-#{$size}-#{$i}{
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        // width: calc(100%/12*#{$i});
+                        width: #{100%/12*$i};
+                    }
+                }
+            }@else {
+                .col-#{$i}{
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    // width: calc(100%/12*#{$i});
+                    width: #{100%/12*$i};
+                }
+            }
+        }
+        @if $oneSize>0 {
+            @media(min-width: #{$oneSize}px){
+                .container{
+                    max-width: #{$containerSize}px;
+                }
+            }
+        }@else{
+            .container{
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100%;
+            }
+        }
+    }
+}
+@include grid($sizes);
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@mixin media ($size) {
+    @media(max-width:#{$size}px){
+        @content
+    }
+}

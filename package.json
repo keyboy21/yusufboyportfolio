@@ -1,0 +1,19 @@
+{
+  "name": "yusufresume",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.11.4",
+    "morgan": "~1.9.1"
+  }
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/all.min.css">
+    <link rel="stylesheet" href="styles/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container header__nav">
+            <div class="header__nav-top">
+                <a href="#" class="header__nav-lang">ru</a>
+                <h1 class="header__title">TOTEMBO</h1>
+                <a href="#" class="header__nav-search">
+                    <i class="fal fa-search"></i>
+                </a>
+            </div>
+            <div class="header__nav-bottom">
+                <button class="header__nav-btn">
+                    <i class="fal fa-bars"></i>
+                </button>
+                <ul class="header__nav-list">
+                    <button class="header__nav-times">
+                        <i class="fal fa-times"></i>
+                    </button>
+                    <li><a href="#" class="header__nav-link">Часы</a></li>
+                    <li><a href="#" class="header__nav-link">Кольца</a></li>
+                    <li><a href="#" class="header__nav-link">Серьги</a></li>
+                    <li><a href="#" class="header__nav-link">Браслеты</a></li>
+                    <li><a href="#" class="header__nav-link">Клатчи</a></li>
+                    <li><a href="#" class="header__nav-link">Цепочки</a></li>
+                </ul>
+                
+                <ul class="header__nav-controls">
+                    <li><a href="#" class="header__nav-icon" id="like" data-target=".like-sidebar">
+                        <i class="fal fa-heart"></i>
+                    </a></li>
+                    <li><a href="#" class="header__nav-icon" id="cart" data-target=".cart-sidebar">
+                        <i class="fal fa-shopping-cart"></i>
+                    </a></li>
+                    <li><a href="#" class="header__nav-icon">
+                        <i class="fal fa-user"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<aside class="like-sidebar" data-array="like">
+
+    <button class="like-sidebar__times" data-target="#like">
+
+        <i class="fal fa-times"></i>
+
+    </button>
+
+    <div class="like-sidebar__product-list">
+
+        
+
+    </div>
+
+</aside>
+
+<aside class="cart-sidebar" data-array="cart">
+
+    <button class="cart-sidebar__times" data-target="#cart">
+
+        <i class="fal fa-times"></i>
+
+    </button>
+
+    <div class="like-sidebar__product-list">
+
+        
+
+    </div>
+
+</aside>
+    
+    <main class="main">
+        
+        <div class="header__content container">
+        
+            <div class="header__content-item" data-name="CITIZEN" data-price="1578000">
+        
+                <div class="header__content-sale">50%</div>
+        
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+        
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+        
+                <div class="header__content-product">
+        
+                    <img src="images/clock.png" class="header__content-image" alt="watch">
+        
+                    <div class="header__content-info">
+        
+                        <h4 class="header__content-name">CITIZEN</h4>
+        
+                        <p class="header__content-price">1 578 000 UZS</p>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+            <div class="header__content-item" data-name="Casio G-Shock" data-price="2258000">
+        
+                <div class="header__content-sale">50%</div>
+        
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+        
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+        
+                <div class="header__content-product">
+        
+                    <img src="images/image-3.png" class="header__content-image" alt="watch">
+        
+                    <div class="header__content-info">
+        
+                        <h4 class="header__content-name">Casio G-Shock</h4>
+        
+                        <p class="header__content-price">2 258 000 UZS</p>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+            <div class="header__content-item" data-name="COVER CRAZY SECONDS" data-price="1785000">
+        
+                <div class="header__content-sale">50%</div>
+        
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+        
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+        
+                <div class="header__content-product">
+        
+                    <img src="images/image-4.png" class="header__content-image" alt="watch">
+        
+                    <div class="header__content-info">
+        
+                        <h4 class="header__content-name">COVER CRAZY SECONDS</h4>
+        
+                        <p class="header__content-price">1 785 000 UZS</p>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+        <section class="leader container">
+            <h2 class="leader__title">ЛИдеры продаж</h2>
+            <div class="leader__content">
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-5.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-6.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-7.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-8.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-9.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-10.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-11.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-12.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-13.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-14.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-15.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name = "Fantastic Style" data-price="1128000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-16.jpg" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <h2 class="news__title">НОВОСТИ</h2>
+            <div class="container news__content">
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">Советы</div>
+                        <h4 class="news__item-title">Как выбрать первые японские часы – советы эксперта</h4>
+                        <p class="news__item-text">Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в Японии существуют около 2800 фирм, так или иначе связанных с часовым ...</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+<footer class="footer">
+    
+    <div class="container">
+    
+        <div class="row">
+    
+            <div class="col-6 col-lg-3">
+    
+                <h5 class="footer__title">ТОВАРЫ</h5>
+    
+                <ul class="footer__list">
+    
+                    <li><a href="#" class="footer__link">Часы</a></li>
+    
+                    <li><a href="#" class="footer__link">Кольца</a></li>
+    
+                    <li><a href="#" class="footer__link">Серьги</a></li>
+    
+                    <li><a href="#" class="footer__link">Браслеты</a></li>
+    
+                    <li><a href="#" class="footer__link">Клатчи</a></li>
+    
+                    <li><a href="#" class="footer__link">Цепочки</a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="col-6 col-lg-3">
+    
+                <h5 class="footer__title">ПОКУПАТЕЛЯМ</h5>
+    
+                <ul class="footer__list">
+    
+                    <li><a href="#" class="footer__link">Скидки</a></li>
+    
+                    <li><a href="#" class="footer__link">Новости</a></li>
+    
+                </ul>
+    
+            </div>
+    
+
+    
+
+    
+            <div class="col-12 col-lg-6">
+    
+                <div class="row footer__right">
+    
+                    <div class="footer__contact col-lg-12 col-sm-6 col-12">
+    
+                        <h5 class="footer__title">ПОКУПАТЕЛЯМ</h5>
+    
+                        <a class="footer__info" href="https://goo.gl/maps/tzCHMe3DZNqFkwoVA">Ул. Аския, Яккасарайский район, Ташкент, Узбекистан</a>
+    
+                        <div class="footer__tel">
+    
+                            <a href="tel:+99897 742 54 14" class="footer__info">+998 97 742 54 14</a>
+    
+                            <a href="tel:+99897 742 54 14" class="footer__info">+998 97 742 54 14</a>
+    
+                        </div>
+    
+                        <a class="footer__info" href="mailto:totembo@exapmle.com">totembo@exapmle.com</a>
+    
+                    </div>
+    
+                    <div class="footer__social col-lg-12 col-sm-6 col-12">
+    
+                        <h5 class="footer__title">СОЦИАЛЬНЫЕ СЕТИ</h5>
+    
+                        <ul class="footer__social-list">
+    
+                            <li><a href="#" class="footer__social-icon"><i class="fab fa-vk"></i></a></li>
+    
+                            <li><a href="#" class="footer__social-icon"><i class="fab fa-youtube"></i></a></li>
+    
+                            <li><a href="#" class="footer__social-icon"><i class="fab fa-instagram"></i></a></li>
+    
+                            <li><a href="#" class="footer__social-icon"><i class="fab fa-facebook-f"></i></a></li>
+    
+                        </ul>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+    
+</footer>
+    
+
+    
+<script src="scripts/common.min.js"></script>
+    
+</body>
+    
+
+    
+</html>
+    

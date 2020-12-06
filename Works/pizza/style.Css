@@ -1,0 +1,452 @@
+* {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #68bf3b;
+    /* silkaga */
+    --green-2: rgba(105, 207, 22);
+    /* silka 2 */
+    --grey-p: #bdbdbd;
+    /* paragrf */
+    --green-3: rgba(104, 205, 22);
+    /* menyu uchun */
+    --grey-p2: #a6a6a6;
+    /* kombo peperoni */
+    --col-1: calc(100% /12 *1);
+    --col-2: calc(100% /12 *2);
+    --col-3: calc(100% /12 *3);
+    --col-4: calc(100% /12 *4);
+    --col-5: calc(100% /12 *5);
+    --col-6: calc(100% /12 *6);
+    --col-7: calc(100% /12 *7);
+    --col-8: calc(100% /12 *8);
+    --col-9: calc(100% /12 *9);
+    --col-10: calc(100% /12 *10);
+    --col-11: calc(100% /12 *11);
+    --col-12: calc(100% /12 *12);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
+    height: auto;
+}
+
+.conteiner{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* ---justify-content--- */
+.justify-center {
+    justify-content: center;
+}
+
+.justify-betwen {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+/* ---align-items--- */
+
+.align-center {
+    align-items: center;
+
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+/* ---end--- */
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.c0l-4{
+    width: var(--col-4);
+}
+.col-8{
+width:var(--col-8);
+}
+
+
+/* -----start------ */
+
+header {
+    width: 100%;
+    background: url('./images/Maket_photoshop_for_Uktam_2_pizza_01.jpg') no-repeat center, center/cover;
+    height: 769px;
+}
+
+ .row .pizza {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 47px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+header ul li a {
+    display: block;
+
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 47px 0px 0px;
+
+}
+
+header ul li a span {
+    padding: 19px 27px 17px 26px;
+    background: var(--green);
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 8px;
+    margin-left: 87px;
+}
+
+
+
+
+.kombo .komp {
+    margin-top: 196px;
+    font-size: 18px;
+    font-weight: 900px;
+    color: white;
+    line-height: 13px;
+   
+}
+
+.kombo h1 {
+margin-top: 35px;
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    line-height: 50px;
+    
+}
+
+.kombo p {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 13px;
+   
+}
+
+.kombo button {
+    margin-top: 50px;
+    color: white;
+    padding: 18px 44px 20px 43px;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(to top, rgba(63, 137, 2), rgba(106, 207, 22));
+    border-radius: 25px;
+    border: none;
+
+}
+
+/* ------end------ */
+
+
+
+/* -------section------- */
+section{
+    width: 100%;
+    margin-top: 80px;
+}
+
+section .conteiner .row .box{
+    width: var(--col-8);
+    
+} 
+
+section h2{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #68bf3b;
+    margin-bottom: 65px;
+}
+
+section p{
+    
+    color: var(--grey-p);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+section p:last-of-type{
+    color: var(--grey-p);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+/* ------end-------- */
+
+
+
+
+
+section .conteiner .row{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .box .item{
+width: var(--col-8);
+display: flex;
+flex-wrap: wrap;
+}
+
+section nav a{
+    color: #e1f5d0;
+    font-weight: 700;
+    font-size: 36px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+section .conteiner .row .retsep{
+    width: var(--col-8);
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+section .conteiner .row .retsep .box{
+    width: 380px;
+    margin-left: 30px;
+
+}
+
+section .conteiner .row .retsep .box h1{
+    font-weight: 7000;
+    font-size: 30px;
+    color: #7a7a79;
+}
+
+section .conteiner .row .retsep .box2 p{
+    color: var(--grey-p);
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 36px;
+
+}
+
+section .conteiner .row .retsep .box2 p span{
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--grey-p2);
+
+}
+
+section .conteiner .row .retsep .box2 button{
+    margin-top: 50px;
+    color: white;
+    padding: 18px 44px 20px 43px;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(to top, rgba(63, 137, 2), rgba(106, 207, 22));
+    border-radius: 25px;
+    border: none;
+
+
+}
+
+section .conteiner .row .img{
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+section .conteiner .row .img h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section .conteiner .row .img p{
+    text-align: center;
+
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+footer{
+    background: black;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+footer ul li a {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+    padding: 47px 0px 0px;
+}
+
+footer ul li a span {
+    padding: 19px 27px 17px 26px;
+    background: var(--green);
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 8px;
+    margin-left: 87px;
+}
+
+footer p{
+    padding-bottom: 58px;
+    margin-top: 65px;
+    color:#7a7a79;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* MEDIA starting */
+
+
+/* lg */
+@media(max-width: 992px){
+    section h2{
+        text-align: center;
+
+    }
+    section .conteiner nav {
+        text-align: center;
+    }
+
+    section .conteiner .row .retsep{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+/* md */
+@media(max-width:768px){
+    section .conteiner .row .retsep{
+      margin-left: 180px;
+}
+section .conteiner .row .retsep .box2 button{
+    margin: 15px;
+}
+section .conteiner .row .retsep .box h1{
+    margin: 0px;
+}
+
+}
+
+
+
+/* sm */
+@media(max-width:576px){
+    .kombo h1{
+        font-size: 55px;
+    }
+    section .conteiner .row .retsep{
+        margin-left: 80px;
+    }
+    section .conteiner .row .img{
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+}
+
+
+
+
+/* ex.sm */
+@media(max-width:320px){
+    header ul li a span{
+        margin-left: 0px;
+    }
+    .kombo .komp{
+        margin-top: 100px;
+    }
+    .kombo h1{
+        font-size: 50px;
+    }
+    section h2{
+        margin-bottom: 30px;
+    }
+    section .conteiner .row .retsep{
+        margin-left: 50px;
+    }
+    section p:last-of-type{
+        font-size: 14px;
+    }
+    section .conteiner .row .retsep{
+        margin-top: 30px;
+    }
+    footer ul li a span{
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
