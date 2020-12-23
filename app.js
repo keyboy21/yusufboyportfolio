@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(minify());
-app.use(minify({cache: __dirname + '/node_modules'}));
+app.use(minify({ cache: __dirname + '/node_modules' }));
 app.use(minify());
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
