@@ -11,10 +11,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "express-minify": "^1.0.0",
-    "hbs": "~4.0.4",
+    "hbs": "^4.1.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.5.1",
-    "mongoose": "^5.11.4",
+    "mongoose": "^5.12.2",
     "morgan": "~1.9.1"
   }
 }
