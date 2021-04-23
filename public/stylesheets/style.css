@@ -17,18 +17,31 @@ header {
 .font {
   position: absolute;
 }
-.font p {
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  font-family: "Permanent Marker", cursive;
+.text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
 }
-h1 {
-  font-size: 50px;
+.text-wrapper .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.font .text-wrapper .letters {
   color: white;
   text-align: center;
   font-family: "Permanent Marker", cursive;
   font-family: "Satisfy", cursive;
+  display: inline-block;
+  line-height: 1em;
 }
 .navbar .navbar-toggler {
   background: white;
